@@ -9,3 +9,9 @@
 <img width="803" height="644" alt="image" src="https://github.com/user-attachments/assets/ce46c784-cf10-408a-8bda-f1a4c57aa20b" />
 
 <img width="450" height="512" alt="image" src="https://github.com/user-attachments/assets/f5fc56ab-ade0-47cb-a1bb-299d3b78a665" />
+
+![20250816_203554](https://github.com/user-attachments/assets/51aba0a1-7602-499e-8f84-0396719a4c6a)
+
+![Screenshot_20250816_233756_nRF Connect](https://github.com/user-attachments/assets/437308f9-908e-4c2b-8925-c5bcceec618d)
+
+![Screenshot_20250816_233936](https://github.com/user-attachments/assets/e417773a-fe2a-4944-8496-c7fe2f5ccf32)
