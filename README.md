@@ -1,5 +1,11 @@
 < [Main Page](https://enginebeast.github.io/) < [Arduino RC car project](https://enginebeast.github.io/RCcar)
 
+While working on my project, I realized that IR controller doesn't fit my project. (왜냐하면 조금이라도 거리가 멀어지거나 장애물을 만나면 그것은 제대로 역할을 못 할 것임을 꺠달았기 떄문이다.) So, I decided to find another way to control my RC car.
+
+Firt, I considered modifying the prototype RC car remote control. But, I canceled this decision, because I wasn't convinced that I was able to make arduino to receive radio waves of prototype remote control.
+
+Second, I considered using phone application and bluetooth module to control RC car. And, it has high flexibility and 
+
 <img width="384" height="629" alt="image" src="https://github.com/user-attachments/assets/14d0e229-30c2-4883-babd-6e7872e46f1a" />
 
 ![Screenshot_20250815_213215](https://github.com/user-attachments/assets/a39fa935-1650-445a-9d3c-2acbeab0afa0)
