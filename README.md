@@ -1,10 +1,12 @@
 < [Main Page](https://enginebeast.github.io/) < [Arduino RC car project](https://enginebeast.github.io/RCcar)
 
-While working on my project, I realized that IR controller doesn't fit my project. (왜냐하면 조금이라도 거리가 멀어지거나 장애물을 만나면 그것은 제대로 역할을 못 할 것임을 꺠달았기 떄문이다.) So, I decided to find another way to control my RC car.
+While working on my project, I realized that IR remote control wasn't suitable my project. The IR sensor doesn't work properly when obstacles block the signal. So, I decided to find another way to control my RC car.
 
-Firt, I considered modifying the prototype RC car remote control. But, I canceled this decision, because I wasn't convinced that I was able to make arduino to receive radio waves of prototype remote control.
+First, I considered modifying the prototype RC car remote control. But, I canceled this decision, because I wasn't convinced that I was able to make arduino to receive radio waves of prototype remote control. 
 
-Second, I considered using phone application and bluetooth module to control RC car. And, it has high flexibility and 
+Second, I considered using a smartphone remote control app with a Bluetooth module to control the RC car. Although the app maker’s UI for Arduino is limited, this isn’t a big problem. Initially, my goal in creating a remote control system was simply to check whether the RC car was working correctly, so I didn’t need detailed control. If I want more advanced control in the future, I can solve it at the Raspberry Pi level.
+
+In my work, the document for developing and testing the remote control app became too long. So, I separated it into another link.
 
 <img width="384" height="629" alt="image" src="https://github.com/user-attachments/assets/14d0e229-30c2-4883-babd-6e7872e46f1a" />
 
