@@ -1,4 +1,4 @@
-< [Main Page](https://enginebeast.github.io/) < [Arduino RC car project](https://enginebeast.github.io/RCcar)
+< [Main Page](https://enginebeast.github.io/) < [Small car project](https://enginebeast.github.io/smallcar)
 
 ![Screenshot_20250816_233936](https://github.com/user-attachments/assets/e417773a-fe2a-4944-8496-c7fe2f5ccf32)
 
