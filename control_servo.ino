@@ -1,40 +1,39 @@
 #include <Servo.h>
+#include <SoftwareSerial.h>
 
-Servo servo1;
-char button;
-void setup(){
+Servo steer;
+int Rx = 6; //수신 받는핀
+int Tx = 7; //전송 보내는핀  
+int Servo = 8;
+
+SoftwareSerial BtSerial(Rx,Tx);
+
+unsigned long lastTime = 0;
+int currentSteer = 1500;
+
+void setup() {
   Serial.begin(9600);
-  servo1.attach(8, 500, 2500);
-  servo1.writeMicroseconds(1500);
+  BtSerial.begin(9600);
+
+  steer.attach(Servo, 500, 2500);
 }
 
-void loop(){
-   if (Serial.available()) {
-    button = Serial.read();
-  }
-    
-  if (button  == 'a'){
-    servo1.writeMicroseconds(2500);
-    delay(500);
-  }
-  
-  else if (button  == 's'){
-    servo1.writeMicroseconds(2000);
-    delay(500);
-  }
+void loop() {
+  if (BtSerial.available()) {
+    switch(BtSerial.read()){
+      //Center
+      case 3:
+      steer.writeMicroseconds(1500);
+      break;
 
-  else if (button  == 'd'){
-    servo1.writeMicroseconds(1500);
-    delay(500);
-  }
-
-  else if (button  == 'f'){
-    servo1.writeMicroseconds(1000);
-    delay(500);
-  }
-
-  else if (button  == 'g'){
-    servo1.writeMicroseconds(500);
-    delay(500);
+      //Left
+      case 4:
+      steer.writeMicroseconds(2000);
+      break;
+      
+      //Right
+      case 5:
+      steer.writeMicroseconds(1000);
+    }
   }
 }
